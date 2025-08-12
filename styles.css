@@ -169,6 +169,14 @@ form {
     transition: 0.3s ease border;
 }
 
+.task.editing {
+    border: 2px solid var(--blue);
+}
+
+.task.completed label {
+    text-decoration: line-through;
+}
+
 .checkbox-container {
     display: flex;
     align-items: center;
